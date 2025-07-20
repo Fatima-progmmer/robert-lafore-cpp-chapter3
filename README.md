@@ -1,12 +1,3 @@
-### ✅ Repository Name
-
-**`robert-lafore-cpp-chapter3`**
-
----
-
-### 📄 `README.md`
-
-````markdown
 # Robert Lafore C++ Chapter 3 – Exercise Solutions
 
 This repository contains solutions to selected exercises from **Chapter 3: Functions and References** of the book  
