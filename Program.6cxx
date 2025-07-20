@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int fact;
+	char choice;
+	do
+	{
+		int num=1;
+		cout << "Enter a number you want a factorial= ";
+		cin >> fact;
+		for (int i = 1; i <= fact; i++)
+		{
+			num= i* num;
+		}
+		cout << "The factorial of " << fact <<" is " << num << endl;
+		cout << "Do you want a zero factorial ?" << endl;
+		cin >> choice;
+	}
+	while(choice!='y');
+	return 0;
+}
